@@ -1,4 +1,4 @@
-#TypeScript Learning Project
+# TypeScript Learning Project
 
 A small project that implements some basic Algos and Data Structures in TS.
 
@@ -15,6 +15,18 @@ A small project that implements some basic Algos and Data Structures in TS.
 
 `tslint --init`
 
-####Unit Testing with Mocha and Chai
+#### Unit Testing with Mocha and Chai
 Mocha is a Unit Testing library and Chai is an Assertions library.
+
 `npm install chai mocha ts-node @types/chai @types/mocha --save-dev`
+
+Running tests with mocha:
+
+`mocha -r ts-node/register test/**/*Test.ts`
+
+#### Coverage
+`npm install nyc -g`
+
+This is compatible with WebSotrm's "run w/ coverage option".
+Also works in IntelliJ.
+
